@@ -108,13 +108,13 @@ final popularPlacesData = [
     image: "assets/images/popular_places/Kelimutu.Crater.Lakes.jpg",
     description:
         "Kelimutu (pronounced [kəliˈmutu]) is a volcano, close to the small town of Moni in central Flores island in Indonesia. It is around 50 km (31 mi) to the east of Ende, Indonesia, the capital of Ende regency in East Nusa Tenggara province. It has three volcanic crater lakes that differ in color. The science of the Kelimutu lakes is relatively well-known, and the changes in color and temperature are concluded to be related to volcanic activity and the resulting fluid flux at vents at the bottom of the lakes. The Lake colors periodically change due to adjustments in the oxidation-reduction status of the fluid of each lake, and also considering the abundance of different major elements, such as iron and manganese. Oxidation-reduction status depends on the balance of volcanic gas input and rainfall rate, and is thought to be mediated by the groundwater system in the volcano itself. The colors in the lakes change independently from each other, as each has its own unique connectivity to the underlying volcano's activity. Between January and November 2016, the colors of the craters changed six times. Although it is widely believed that the changes are unpredictable, it is more accurate to say that the lack of any regular monitoring of the volcanic system precludes scientists from having the data necessary to drive widely available predictive models.",
-    title: "Pulau Kelimutu",
+    title: "Kelimutu Lake",
     location: "NTB",
     rating: 5.0,
   ),
   PopularPlaces(
     image: "assets/images/popular_places/Komodo dragon.webp",
-    title: "Pulau Komodo",
+    title: "Komodo Island",
     description:
         "Komodo Island is an island located in the Nusa Tenggara Islands, east of Sumbawa Island, which is separated by the Sape Strait. Komodo Island is known as the original habitat of Komodo dragons. This island is one of the Komodo National Park areas managed by the Central Government. Administratively, this island belongs to the West Manggarai Regency, Komodo District, East Nusa Tenggara Province, Indonesia. Komodo Island is the westernmost tip of East Nusa Tenggara Province, bordering West Nusa Tenggara Province. On Komodo Island, Komodo dragons live and breed well. Until August 2009, on this island there are about 1300 dragons. Coupled with other islands, such as Rinca Island and Gili Motang, their total number reaches around 2500 individuals. There are also around 100 Komodo dragons in the Wae Wuul Nature Reserve on the mainland of Flores Island but not including the Komodo National Park area. Apart from Komodo dragons, this island also has exotic flora of various sepang wood which local people use as medicine and dye for clothes. This nitak tree or sterculia oblongata is believed to be useful as medicine and its seeds are tasty and delicious like peas. Komodo Island is also accepted as a UNESCO World Heritage Site, because it is in the Komodo National Park area, together with Rinca Island, Padar Island and Gili Motang",
     location: "NTB",
@@ -122,7 +122,7 @@ final popularPlacesData = [
   ),
   PopularPlaces(
     image: "assets/images/popular_places/padar island.jpg",
-    title: "Pulau Padar",
+    title: "Padar Island",
     description:
         "Padar Island is the third largest island in the Komodo National Park area, after Komodo Island and Rinca Island. The island is relatively closer to Rinca Island than to Komodo Island, which is separated by the Lintah Strait. Padar Island is not inhabited by ora (Komodo monitor lizards). Around this island there are also three or four small islands. Padar Island is also accepted as a UNESCO World Heritage Site, because it is in the territory of the Komodo National Park, together with Komodo Island, Rinca Island and Gili Motang.",
     location: "NTB",
@@ -133,7 +133,7 @@ final popularPlacesData = [
 final popularSouvenirsData = [
   PopularSouvenirs(
     image: "assets/images/popular_souvenirs/souvenirs 1.jpg",
-    title: "Tenun NTT",
+    title: "Moven Fabric NTT",
     description:
         "East Nusa Tenggara (NTT) is world renowned for its beautiful weavings that depict stories of traditional life in this diverse province of Indonesia... The province of NTT has more than 500 islands, and the six largest islands are Timor, Flores, Sumba, Rote, Sabu and Alor... Each island or each tribe on the islands has its own color and design that distinguishes textiles, resulting in a variety of patterns /decorative motifs woven on traditional fabrics called woven ikat... The patterns depict mythical figures, plants, animals, as well as abstract motifs that show a deep appreciation for the power of nature... Traditional figurative motifs have meaning, for example the horse is usually associated with male prestige or wealth... Other animals such as snakes, which can be stylized and appear as geometric zigzag motifs, are very ancient and are often associated with the underworld and fertility... The oldest form of Ikat is Warp Ikat (woven ikat) and is the predominant technique used in NTT, a unique dye resistant process that can be broken down into three overarching categories of binding, dyeing and weaving which makes the whole process of creating a piece of textile very complicated and can be time consuming. it takes months or even years to produce one woven...",
     location: "",
