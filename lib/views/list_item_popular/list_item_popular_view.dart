@@ -7,6 +7,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import '../../constants/colors.dart';
 import '../../constants/enum.dart';
+import '../home/home_view.dart';
 
 enum Filter { nearest, lowestPrice, rating, highestPrice }
 
@@ -332,6 +333,33 @@ class _ListItemPopularViewState extends State<ListItemPopularView> {
             GestureDetector(
               onTap: () {
                 Navigator.pop(context);
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const HomeView(),
+                  ),
+                );
+              },
+              child: Row(
+                children: const [
+                  SizedBox(width: 20),
+                  Icon(
+                    Icons.home,
+                    color: Colors.white,
+                    size: 20,
+                  ),
+                  SizedBox(width: 10),
+                  Text(
+                    "Home",
+                    style: CustomTextStyleWhite.body,
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+            GestureDetector(
+              onTap: () {
+                Navigator.pop(context);
                 showModalBottomSheet(
                   context: context,
                   shape: const RoundedRectangleBorder(
@@ -341,9 +369,9 @@ class _ListItemPopularViewState extends State<ListItemPopularView> {
                   ),
                   builder: (context) =>
                       StatefulBuilder(builder: (context, setState) {
-                    return SingleChildScrollView(
-                      child: SizedBox(
-                        height: height * 0.7,
+                    return SizedBox(
+                      height: height * 0.7,
+                      child: SingleChildScrollView(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [

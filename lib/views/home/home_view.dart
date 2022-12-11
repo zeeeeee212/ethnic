@@ -88,6 +88,33 @@ class _HomeViewState extends State<HomeView> {
             GestureDetector(
               onTap: () {
                 Navigator.pop(context);
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const HomeView(),
+                  ),
+                );
+              },
+              child: Row(
+                children: const [
+                  SizedBox(width: 20),
+                  Icon(
+                    Icons.home,
+                    color: Colors.white,
+                    size: 20,
+                  ),
+                  SizedBox(width: 10),
+                  Text(
+                    "Home",
+                    style: CustomTextStyleWhite.body,
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+            GestureDetector(
+              onTap: () {
+                Navigator.pop(context);
                 showModalBottomSheet(
                   context: context,
                   shape: const RoundedRectangleBorder(

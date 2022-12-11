@@ -97,26 +97,32 @@ final popularEventsList = [
 
 final popularPlacesData = [
   PopularPlaces(
-    image: "assets/images/popular_places/Bali.jpg",
-    title: "Bali",
+    image: "assets/images/popular_places/pink_beach.jpeg",
     description:
-        "Bali (Balinese: ᬩᬮᬶ) is a province located in Indonesia. The capital city is Denpasar. Bali Province is located in the western part of the Nusa Tenggara Islands. At the beginning of Indonesian independence, this island was included in the Lesser Sunda Province, whose capital was Singaraja, and is now divided into 3 provinces, namely Bali, West Nusa Tenggara and East Nusa Tenggara. In 2020, the population of the province of Bali is 4,317,404 people, with a density of 747 people/km2. Apart from consisting of the island of Bali, the province of Bali also consists of smaller surrounding islands, namely Nusa Penida Island, Nusa Lembongan Island, Nusa Ceningan Island, Serangan Island, and Menjangan Island. Geographically, Bali is located between the islands of Java and Lombok. The majority of the Balinese are followers of Hinduism. In the world, Bali is well-known as a tourism destination with its unique arts and culture, especially for Japanese and Australian tourists. Bali is also known as the Island of the Gods and the Island of a Thousand Temples.",
-    location: "Bali",
-    rating: 5.0,
-  ),
-  PopularPlaces(
-    image: "assets/images/popular_places/Kelimutu.Crater.Lakes.jpg",
-    description:
-        "Kelimutu (pronounced [kəliˈmutu]) is a volcano, close to the small town of Moni in central Flores island in Indonesia. It is around 50 km (31 mi) to the east of Ende, Indonesia, the capital of Ende regency in East Nusa Tenggara province. It has three volcanic crater lakes that differ in color. The science of the Kelimutu lakes is relatively well-known, and the changes in color and temperature are concluded to be related to volcanic activity and the resulting fluid flux at vents at the bottom of the lakes. The Lake colors periodically change due to adjustments in the oxidation-reduction status of the fluid of each lake, and also considering the abundance of different major elements, such as iron and manganese. Oxidation-reduction status depends on the balance of volcanic gas input and rainfall rate, and is thought to be mediated by the groundwater system in the volcano itself. The colors in the lakes change independently from each other, as each has its own unique connectivity to the underlying volcano's activity. Between January and November 2016, the colors of the craters changed six times. Although it is widely believed that the changes are unpredictable, it is more accurate to say that the lack of any regular monitoring of the volcanic system precludes scientists from having the data necessary to drive widely available predictive models.",
-    title: "Kelimutu Lake",
+        """ Pink Beach, or Pantai Merah, as it is aptly named, is one of seven pink beaches on the planet, and is just one of the many amazing features of Komodo Island that make it truly a Natural Wonder of Nature. This exceptional beach gets its striking color from microscopic animals called Foraminifera, which produces a red pigment on the coral reefs. For this reason, it is called Red Beach in the local tongue. When the tiny fragments of red coral combine with the white sands, this produces the soft pink color that is visible along the shoreline. Aside from Pink Beach itself, a few small segments along Komodo’s eastern bay also have a pinkish tint.
+
+Located immediately west of Flores island in East Nusa Tenggara , Komodo Island is one of three larger and many islets that make up the Komodo National Park and is particularly well-known as the natural habitat of the Komodo dragon. The Komodo Dragon is the largest living lizard, and takes its name after the island.""",
+    title: "Pink Beach",
     location: "NTB",
     rating: 5.0,
   ),
   PopularPlaces(
-    image: "assets/images/popular_places/Komodo dragon.webp",
-    title: "Komodo Island",
+    image: "assets/images/popular_places/Bali.jpg",
+    title: "Kelingking Beach",
     description:
-        "Komodo Island is an island located in the Nusa Tenggara Islands, east of Sumbawa Island, which is separated by the Sape Strait. Komodo Island is known as the original habitat of Komodo dragons. This island is one of the Komodo National Park areas managed by the Central Government. Administratively, this island belongs to the West Manggarai Regency, Komodo District, East Nusa Tenggara Province, Indonesia. Komodo Island is the westernmost tip of East Nusa Tenggara Province, bordering West Nusa Tenggara Province. On Komodo Island, Komodo dragons live and breed well. Until August 2009, on this island there are about 1300 dragons. Coupled with other islands, such as Rinca Island and Gili Motang, their total number reaches around 2500 individuals. There are also around 100 Komodo dragons in the Wae Wuul Nature Reserve on the mainland of Flores Island but not including the Komodo National Park area. Apart from Komodo dragons, this island also has exotic flora of various sepang wood which local people use as medicine and dye for clothes. This nitak tree or sterculia oblongata is believed to be useful as medicine and its seeds are tasty and delicious like peas. Komodo Island is also accepted as a UNESCO World Heritage Site, because it is in the Komodo National Park area, together with Rinca Island, Padar Island and Gili Motang",
+        """ Kelingking Beach is one of the most famous spot of Nusa Penida. Major travel sites use its photo to advertise Bali and even sometimes Indonesia. The place is indeed very spectacular and really amazing. The rock of Kelingking Beach looks a little like the backbone of a dinosaur that would drink in the sea. And by the way, on Google Map the bay is called T-Rex Bay. If you are lucky you may even see Manta rays from the top of the cliff.
+
+The esplanade overlooking the rock is now very popular with tourists and drone pilots. This is one of the places that contributed to the tourist development of Nusa Penida island, especially through social networks. Kelingking also means pinky finger in Indonesian. But it’s a little more complicated to understand why. Or it takes a lot of imagination …""",
+    location: "Bali",
+    rating: 5.0,
+  ),
+  PopularPlaces(
+    image: "assets/images/popular_places/wae rebo milky way.jpg",
+    title: "Wae Rebo Hills",
+    description:
+        """ According to oral tradition Wae Rebo was settled 18 generations ago. An elder from the community had a vision. He led his tribe into the highlands of Flores where they settled under the protection of a friendly spirit.
+In 1997 the local government took the first steps in supporting the development of Wae Rebo as a tourism destination. They invested in the construction of two Mbaru Niang houses. In 2008 s group of 15 Jakarta based architects, with support of the local government and the community, renovated the remaining Mbaru Niang houses.
+ """,
     location: "NTB",
     rating: 5.0,
   ),
@@ -132,24 +138,6 @@ final popularPlacesData = [
 
 final popularSouvenirsData = [
   PopularSouvenirs(
-    image: "assets/images/popular_souvenirs/souvenirs 1.jpg",
-    title: "Moven Fabric NTT",
-    description:
-        "East Nusa Tenggara (NTT) is world renowned for its beautiful weavings that depict stories of traditional life in this diverse province of Indonesia... The province of NTT has more than 500 islands, and the six largest islands are Timor, Flores, Sumba, Rote, Sabu and Alor... Each island or each tribe on the islands has its own color and design that distinguishes textiles, resulting in a variety of patterns /decorative motifs woven on traditional fabrics called woven ikat... The patterns depict mythical figures, plants, animals, as well as abstract motifs that show a deep appreciation for the power of nature... Traditional figurative motifs have meaning, for example the horse is usually associated with male prestige or wealth... Other animals such as snakes, which can be stylized and appear as geometric zigzag motifs, are very ancient and are often associated with the underworld and fertility... The oldest form of Ikat is Warp Ikat (woven ikat) and is the predominant technique used in NTT, a unique dye resistant process that can be broken down into three overarching categories of binding, dyeing and weaving which makes the whole process of creating a piece of textile very complicated and can be time consuming. it takes months or even years to produce one woven...",
-    location: "",
-    rating: 5,
-    price: "Rp. 100.000",
-  ),
-  PopularSouvenirs(
-    image: "assets/images/popular_souvenirs/Souvenirs 2.jpg",
-    title: "Woven Fabric from Flores",
-    description:
-        "East Nusa Tenggara (NTT) is world renowned for its beautiful weavings that depict stories of traditional life in this diverse province of Indonesia... The province of NTT has more than 500 islands, and the six largest islands are Timor, Flores, Sumba, Rote, Sabu and Alor... Each island or each tribe on the islands has its own color and design that distinguishes textiles, resulting in a variety of patterns /decorative motifs woven on traditional fabrics called woven ikat... The patterns depict mythical figures, plants, animals, as well as abstract motifs that show a deep appreciation for the power of nature... Traditional figurative motifs have meaning, for example the horse is usually associated with male prestige or wealth... Other animals such as snakes, which can be stylized and appear as geometric zigzag motifs, are very ancient and are often associated with the underworld and fertility... The oldest form of Ikat is Warp Ikat (woven ikat) and is the predominant technique used in NTT, a unique dye resistant process that can be broken down into three overarching categories of binding, dyeing and weaving which makes the whole process of creating a piece of textile very complicated and can be time consuming. it takes months or even years to produce one woven...",
-    location: "",
-    rating: 5,
-    price: "Rp. 100.000",
-  ),
-  PopularSouvenirs(
     image: "assets/images/popular_souvenirs/souvenir 3.jpg",
     title: "Sasando",
     description:
@@ -159,8 +147,17 @@ final popularSouvenirsData = [
     price: "Rp. 100.000",
   ),
   PopularSouvenirs(
+    image: "assets/images/popular_souvenirs/Souvenirs 2.jpg",
+    title: "Tenun",
+    description:
+        "East Nusa Tenggara (NTT) is world renowned for its beautiful weavings that depict stories of traditional life in this diverse province of Indonesia... The province of NTT has more than 500 islands, and the six largest islands are Timor, Flores, Sumba, Rote, Sabu and Alor... Each island or each tribe on the islands has its own color and design that distinguishes textiles, resulting in a variety of patterns /decorative motifs woven on traditional fabrics called woven ikat... The patterns depict mythical figures, plants, animals, as well as abstract motifs that show a deep appreciation for the power of nature... Traditional figurative motifs have meaning, for example the horse is usually associated with male prestige or wealth... Other animals such as snakes, which can be stylized and appear as geometric zigzag motifs, are very ancient and are often associated with the underworld and fertility... The oldest form of Ikat is Warp Ikat (woven ikat) and is the predominant technique used in NTT, a unique dye resistant process that can be broken down into three overarching categories of binding, dyeing and weaving which makes the whole process of creating a piece of textile very complicated and can be time consuming. it takes months or even years to produce one woven...",
+    location: "",
+    rating: 5,
+    price: "Rp. 100.000",
+  ),
+  PopularSouvenirs(
     image: "assets/images/popular_souvenirs/souvenir 5.jpg",
-    title: "Wayang",
+    title: "Wayang Puppets",
     description: """
 Wayang (derived from Javanese: ꦮꦪꦁ, translit. wayang, lit. 'shadow') is a traditional Indonesian performing art that originated and developed rapidly on the islands of Java and Bali.
 
@@ -178,6 +175,22 @@ Likewise, when Islam entered, when performances featuring "God" or "gods" in hum
 
 When the Catholic missionary, Brother Timotheus L. Wignyosubroto, FIC, in 1960, was on his mission to spread Catholicism, he developed Wayang Wahyu, whose source of stories comes from the Bible.
 """,
+    location: "",
+    rating: 5,
+    price: "Rp. 100.000",
+  ),
+  PopularSouvenirs(
+    image: "assets/images/popular_souvenirs/Souvenir 4.webp",
+    title: "Ondel Ondel",
+    description: """ 
+    Traditionally, the figure of ondel-ondel was known as barongan, a word derived from barong, a protective spirit that can be found across the animistic Austronesian culture long before the arrival of Hinduism. The figure was performed around villages to provide protection against calamities or for warding off wandering evil spirits. It was thought as a representation of the ancestors protecting the village.[1]
+
+The first record of ondel-ondel is probably by British merchant William Scot who noted that een reus raksasa ("a giant Rakshasa") was one of the figures included in the procession led by Prince Jayakarta Wijayakrama to celebrate the circumcision of 10 years old Prince Abdul Mafakhir in the year 1605.[2]
+
+Up until the modern colonial period, ondel-ondel figure was recorded to have a gruesome facial feature such as large fangs and menacing goggle-eyes, similar to the Balinese Barong or Rangda figure. The ondel-ondel was performed on the streets and asked by-passers for opium. When opium was banned in the Dutch East Indies, the ondel-ondel would ask for cigars instead, which is done by placing a cigar on their mouth. During this period, local Betawi people still believe that ondel-ondel can protect a village against disease such as chickenpox. Ondel-ondel performance was recorded by American writer E.R. Scidmore who visited Batavia in late 19th-century who noted a street performance in the form of dances, which could be the ondel-ondel performance.[1]
+
+The construction of an ondel-ondel must follow a certain ritual. Before the construction of an ondel-ondel, the maker must gives offering in the form of incense, kembang tujuh rupa, and a rice porridge. The offering was intended to ensure the process of making ondel-ondel is a smooth one and to allow benevolent spirit to enter the figure.[1]
+    """,
     location: "",
     rating: 5,
     price: "Rp. 100.000",
